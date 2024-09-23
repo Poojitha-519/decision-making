@@ -11,3 +11,13 @@ e
 Sample Output:
 Vowel
 '''
+
+char = input().lower() 
+if char.isalpha():
+     if char in 'aeiou':
+        print("Vowel")
+    else:
+        print("Consonant")
+else:
+    print("Not an alphabet")
+
