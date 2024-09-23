@@ -27,3 +27,26 @@ Sample Input:
 78
 Sample Output:C
 '''
+
+marks = int(input())
+
+
+if marks > 100:
+    print("Invalid Input")
+else:
+   if marks == 100:
+        grade = "S"
+    elif 90 <= marks <= 99:
+        grade = "A"
+    elif 80 <= marks <= 89:
+        grade = "B"
+    elif 70 <= marks <= 79:
+        grade = "C"
+    elif 60 <= marks <= 69:
+        grade = "D"
+    elif 50 <= marks <= 59:
+        grade = "E"
+    else:
+        grade = "F"
+     print(grade)
+
