@@ -18,10 +18,10 @@ Sample Output:
 L1
 '''
 
-a = int(input())  # Seating capacity of L1
-b = int(input())  # Seating capacity of L2
-c = int(input())  # Seating capacity of L3
-allocated_lab = input().strip()  # Lab allocated for ACE training
+a = int(input()) 
+b = int(input()) 
+c = int(input()) 
+allocated_lab = input().strip() 
 labs = {
     'L1': a,
     'L2': b,
